@@ -1,4 +1,7 @@
 # Parth Alti — Portfolio
+## 🌐 Live Portfolio
+
+👉 [View My Portfolio](https://parth-alti-portfolio.vercel.app)
 
 React + TypeScript + Tailwind CSS + Framer Motion + React Three Fiber (Three.js) + Lenis + Lucide React, built with Vite.
 
