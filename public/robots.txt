@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parth-alti-portfolio.vercel.app/sitemap.xml
