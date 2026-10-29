@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
       "Role-based access control",
     ],
     Visual: PriceChartVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/KrishiHedg",
   },
   {
     n: "04",
@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
     desc: "Implemented a dynamic programming algorithm computing the LCS between DNA sequences, returning both alignment length and the reconstructed subsequence.",
     details: ["Applied bottom-up tabulation to eliminate redundant recursive computation."],
     Visual: SequenceAlignVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/LCS-DNA-Alignment",
   },
   {
     n: "05",
@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     desc: "Built an Optimal BST algorithm minimizing average search cost for a library catalogue based on lookup frequencies.",
     details: ["Used dynamic programming across subproblems to evaluate and select optimal tree structures."],
     Visual: TreeVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/Optimal-Binary-search-Tree",
   },
   {
     n: "06",
@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
     desc: "Designed a divide-and-conquer algorithm to find the maximum-sum subarray for a simulated resource allocation scenario.",
     details: ["Benchmarked time-complexity trade-offs between brute-force and divide-and-conquer approaches."],
     Visual: SplitBlocksVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/Subarray-allocation-solver",
   },
   {
     n: "07",
@@ -104,7 +104,7 @@ export const PROJECTS: Project[] = [
     desc: "Built and deployed a personal portfolio site on GitHub Pages showcasing projects, skills and contact information.",
     details: [],
     Visual: BrowserVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/parth-alti-portfolio",
   },
   {
     n: "08",
@@ -114,6 +114,6 @@ export const PROJECTS: Project[] = [
     desc: "Developed a browser-based calculator supporting core arithmetic with real-time input handling in vanilla JavaScript.",
     details: [],
     Visual: CalculatorVisual,
-    github: "https://github.com/parthalti",
+    github: "https://github.com/parthalti/Calculator",
   },
 ];
