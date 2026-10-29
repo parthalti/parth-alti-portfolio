@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { ExternalLink, FileText } from "lucide-react";
 import GhostButton from "./GhostButton";
 import TiltCard from "./TiltCard";
 import { usePrefersReducedMotion } from "../hooks/usePrefersReducedMotion";
@@ -37,7 +38,29 @@ export default function ProjectCard({ project, index, totalCards }: ProjectCardP
                     </h3>
                   </div>
                 </div>
-                <GhostButton href={project.github} label="GitHub" />
+                <div className="flex flex-wrap items-center gap-2">
+                  {project.caseStudy && (
+                    <a
+                      href={project.caseStudy}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-[#22D3EE]/60 text-[#22D3EE] font-medium uppercase tracking-widest px-4 py-2.5 text-[0.65rem] sm:text-xs transition-colors hover:bg-[#22D3EE]/10 shrink-0"
+                    >
+                      <FileText size={14} /> Case study
+                    </a>
+                  )}
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-[#A78BFA]/60 text-[#C4B5FD] font-medium uppercase tracking-widest px-4 py-2.5 text-[0.65rem] sm:text-xs transition-colors hover:bg-[#A78BFA]/10 shrink-0"
+                    >
+                      <ExternalLink size={14} /> Live demo
+                    </a>
+                  )}
+                  <GhostButton href={project.github} label="GitHub" />
+                </div>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 flex-1 min-h-0">
