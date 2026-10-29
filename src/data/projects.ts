@@ -22,6 +22,36 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     n: "01",
+    name: "FlowSight",
+    category: "Explainable Traffic Analytics",
+    tech: ["React + Vite", "Flask", "scikit-learn", "Leaflet", "OpenStreetMap"],
+    desc: "An interactive traffic exploration dashboard that combines mapped road context with machine-learning analysis of simulated traffic observations. Users can change scenario inputs and inspect comparable records and model explanations.",
+    details: [
+      "Interactive OpenStreetMap road context when the public provider responds",
+      "K-Means traffic grouping and nearest-observation exploration",
+      "Decision-tree explanations and linear-model contribution views",
+      "Clear distinction between simulated examples and live traffic data",
+    ],
+    Visual: BrowserVisual,
+    github: "https://github.com/parthalti/FlowSight",
+  },
+  {
+    n: "02",
+    name: "RAMS Hospital",
+    category: "Hospital Resource Allocation & Management",
+    tech: ["React", "TypeScript", "Express", "PostgreSQL", "Prisma", "Jest"],
+    desc: "A multi-speciality hospital resource-management system focused on workflows such as bed allocation and admission, operating-theatre scheduling, and quality assurance.",
+    details: [
+      "Bed allocation and admission workflow",
+      "Operating-theatre scheduling workflow",
+      "Backend validation and conflict-detection testing",
+      "Project planning and defect tracking",
+    ],
+    Visual: SplitBlocksVisual,
+    github: "https://github.com/parthalti/RAMS-Hospital",
+  },
+  {
+    n: "03",
     name: "KrishiHedg",
     category: "AI-Powered Agricultural Price Risk & Hedging Platform",
     tech: ["React + Vite", "Node.js / Express", "Python FastAPI", "SQLAlchemy", "Razorpay", "JWT"],
@@ -37,7 +67,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/parthalti",
   },
   {
-    n: "02",
+    n: "04",
     name: "Longest Common Subsequence",
     category: "DNA Sequence Alignment",
     tech: ["Python", "Jupyter Notebook", "Dynamic Programming"],
@@ -47,7 +77,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/parthalti",
   },
   {
-    n: "03",
+    n: "05",
     name: "Optimal Binary Search Tree",
     category: "Smart Library Search Optimization",
     tech: ["Python", "Dynamic Programming"],
@@ -57,7 +87,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/parthalti",
   },
   {
-    n: "04",
+    n: "06",
     name: "Subarray Allocation Solver",
     category: "Divide & Conquer",
     tech: ["Python", "Jupyter Notebook"],
@@ -67,7 +97,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/parthalti",
   },
   {
-    n: "05",
+    n: "07",
     name: "Personal Portfolio Website",
     category: "Web Development",
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
@@ -77,7 +107,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/parthalti",
   },
   {
-    n: "06",
+    n: "08",
     name: "Calculator App",
     category: "Web Development",
     tech: ["HTML", "CSS", "JavaScript"],
