@@ -12,6 +12,10 @@ React + TypeScript + Tailwind CSS + Framer Motion + React Three Fiber (Three.js)
 - **[KrishiHedg](https://github.com/parthalti/KrishiHedg)** — agriculture-focused market insights, risk analysis, marketplace workflows, and payments.
 - **[Calorie Burnt Prediction](https://github.com/parthalti/calorie-burnt-prediction)** — machine-learning project with a [deployed Streamlit app](https://calorie-burnt-prediction-parthalti.streamlit.app/).
 
+## Project case studies
+
+See [`docs/PROJECT_CASE_STUDIES.md`](docs/PROJECT_CASE_STUDIES.md) for problem statements, implementation notes, validation evidence, limitations, and honest next steps for the featured projects.
+
 ## Setup
 
 ```bash
