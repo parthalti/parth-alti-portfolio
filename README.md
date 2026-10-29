@@ -5,6 +5,13 @@
 
 React + TypeScript + Tailwind CSS + Framer Motion + React Three Fiber (Three.js) + Lenis + Lucide React, built with Vite.
 
+## Featured projects
+
+- **[FlowSight](https://github.com/parthalti/FlowSight)** — explainable traffic analytics with a React dashboard, Flask API, scikit-learn models, and OpenStreetMap road context. Its traffic observations are simulated, not live traffic data.
+- **[RAMS Hospital](https://github.com/parthalti/RAMS-Hospital)** — hospital resource allocation and management, including bed/admission and operating-theatre scheduling workflows.
+- **[KrishiHedg](https://github.com/parthalti/KrishiHedg)** — agriculture-focused market insights, risk analysis, marketplace workflows, and payments.
+- **[Calorie Burnt Prediction](https://github.com/parthalti/calorie-burnt-prediction)** — machine-learning project with a [deployed Streamlit app](https://calorie-burnt-prediction-parthalti.streamlit.app/).
+
 ## Setup
 
 ```bash
