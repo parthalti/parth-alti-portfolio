@@ -17,6 +17,8 @@ export interface Project {
   details: string[];
   Visual: ComponentType;
   github: string;
+  demo?: string;
+  caseStudy?: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -34,6 +36,7 @@ export const PROJECTS: Project[] = [
     ],
     Visual: BrowserVisual,
     github: "https://github.com/parthalti/FlowSight",
+    caseStudy: "https://github.com/parthalti/parth-alti-portfolio/blob/main/docs/PROJECT_CASE_STUDIES.md#flowsight",
   },
   {
     n: "02",
@@ -49,6 +52,7 @@ export const PROJECTS: Project[] = [
     ],
     Visual: SplitBlocksVisual,
     github: "https://github.com/parthalti/RAMS-Hospital",
+    caseStudy: "https://github.com/parthalti/parth-alti-portfolio/blob/main/docs/PROJECT_CASE_STUDIES.md#rams-hospital",
   },
   {
     n: "03",
@@ -65,6 +69,7 @@ export const PROJECTS: Project[] = [
     ],
     Visual: PriceChartVisual,
     github: "https://github.com/parthalti/KrishiHedg",
+    caseStudy: "https://github.com/parthalti/parth-alti-portfolio/blob/main/docs/PROJECT_CASE_STUDIES.md#krishihedg",
   },
   {
     n: "04",
